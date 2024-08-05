@@ -1,0 +1,7 @@
+htmlmin==0.1.12
+Jinja2==3.1.4
+jsmin==3.0.1
+PyYAML==6.0.1
+watchdog==4.0.1
+websocket_server==0.6.4
+pytailwindcss==0.2.0

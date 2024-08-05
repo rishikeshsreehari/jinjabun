@@ -1,0 +1,14 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+<section id="hero" class="py-12 text-center bg-white">
+    <div class="container mx-auto px-4">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Welcome to JinjaBun</h1>
+        <p class="text-lg md:text-xl mb-8">A powerful static site generator that makes building static sites fast and efficient.</p>
+        <a href="/about" class="bg-blue-600 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-700 transition duration-300 inline-block shadow-lg hover:shadow-xl transform hover:-translate-y-1">Learn More</a>
+    </div>
+</section>
+
+{% include 'components/features.html' %}
+{% include 'components/call_to_action.html' %}
+{% endblock %}

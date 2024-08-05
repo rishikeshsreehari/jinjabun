@@ -1,0 +1,12 @@
+base_url: "https:/example.com"  
+version:  "1.0.0"
+
+
+enable_analytics: true
+generate_robots: true
+generate_sitemap: true
+sitemap_exclude_list: ['404']
+
+minify_html:  true
+minify_js:  true
+
